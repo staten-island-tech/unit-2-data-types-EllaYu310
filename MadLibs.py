@@ -1,4 +1,4 @@
-Name_1=(input("Enter a name"))
+Name_1=(input("Enter a name:"))
 Verb_1=(input("Enter your first verb:"))
 Verb_2=(input("Enter your second verb:"))
 Noun_1=(input("Enter a plural noun:"))
@@ -7,5 +7,5 @@ Color_1=(input("Enter a color:"))
 Number_1=int(input("Enter a whole number:#"))
 Celeberty_guest=(input("Enter the name of a celeberty:"))
 
-Madlib=(f"{Name_1}, you have been chosen for the great butter contest. Please {Verb_1} through the butter before your competiors do. Yet it felt like I was {Verb_2} through the snow instead! As I continued my journey I saw {Celeberty_guest}! They were wearing {Noun_2} and walking on {Number_1} {Color_1} {Noun_1}!")
+Madlib=(f" {Name_1}, you have been chosen for the great butter contest. Please {Verb_1} through the butter before your competiors do. If you are caught {Verb_2} the butter, you will be disqualified. Now lets bring in {Celeberty_guest}! They have hidden {Number_1} {Noun_2} in the butter! If you find them all then you will automatically win")
 print(f"Madlib:{Madlib}")
