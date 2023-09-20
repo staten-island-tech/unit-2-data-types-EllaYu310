@@ -42,3 +42,15 @@
 #else:
 #    print("Odd")
 ##Challenge bill
+bill=(input("Enter bill amount:$"))
+service=(input("What would you rate the service? bad, okay, good, or great?:"))
+if service == "bad":
+    print("0% tip?")
+elif service == "okay":
+    print("15% tip?")
+elif service == "good":
+    print("20% tip?")
+elif service == "great":
+    print("25% tip?")
+else:
+    print("Please rate our service.")
