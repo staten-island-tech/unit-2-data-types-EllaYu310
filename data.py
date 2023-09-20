@@ -1,7 +1,3 @@
-#x = 3
-#y = float(3)
-#print(x,y)
-
 #tip calculator
 #bill=float(input("Enter bill amount:$"))
 #tip_percentage=int(input("Enter tip percentage:%"))
@@ -40,9 +36,9 @@
 #    print('cold')
     
 ##Challenge odd or even
-number=7
-if number == base[0,2,4,6,8]: 
-    print("Even")
-else:
-    print("Odd")
+#number=7
+#if number%2 == 0: 
+#    print("Even")
+#else:
+#    print("Odd")
 ##Challenge bill
