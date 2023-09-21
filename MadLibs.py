@@ -7,5 +7,5 @@ Color_1=(input("Enter a color:"))
 Number_1=int(input("Enter a whole number:#"))
 Celeberty_guest=(input("Enter the name of a celeberty:"))
 
-Madlib=(f" {Name_1}, you have been chosen for the great butter contest. Please {Verb_1} through the butter before your competiors do. If you are caught {Verb_2} the butter, you will be disqualified. Now lets bring in {Celeberty_guest}! They have hidden {Number_1} {Noun_2} in the butter! If you find them all then you will automatically win")
+Madlib=(f" {Name_1}, you have been chosen for the great butter contest. Please {Verb_1} through the butter before your competiors do! If you are caught {Verb_2} the butter, you will be disqualified. Now lets bring in {Celeberty_guest}! They have hidden {Number_1} {Noun_2} in the butter! If you find them all then you will automatically win!")
 print(f"Madlib:{Madlib}")
