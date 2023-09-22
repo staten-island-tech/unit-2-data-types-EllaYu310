@@ -1,5 +1,6 @@
-##Challenge: Factors
-first_num=int('1')
-second_num=int('4')
-
-print(first_num+second_num)
+def find_factors(number):
+    factors=[]
+    number= int(input("Enter a number:"))
+    for i in range(number):
+        if number%number-i:
+            
