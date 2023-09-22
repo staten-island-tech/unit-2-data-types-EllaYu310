@@ -46,7 +46,15 @@ else:
     print("Please rate our service.")
     
 ##Challenge Finding factors
+def factors(number):
+    factors=[]
+    for i in range(number, number+i):
+        if number/i ==0:
+            return factors
+
 number=input("Enter a number")
+factanswer=int(input(factors))
+print(f'Factors of {number} are {factors}')
 
 
 ##Challenge 2 arguments, find factor
