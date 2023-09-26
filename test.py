@@ -1,5 +1,9 @@
-##Challenge: Factors
-first_num=int('1')
-second_num=int('4')
+def gcf(a,b):
+    if b==0:
+        return a
+    else:
+        return gcf(b, a%b)
+a = int(input("Enter a number:"))
+b = int(input("Enter a numbter:"))
 
-print(first_num+second_num)
+print(gcf(a,b))
