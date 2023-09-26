@@ -36,5 +36,13 @@ for i in range(1, factors+1):
     if factors%i==0:
         print(i)
 
-
 ##Challenge Finding GCF
+Number_1=int(input("Enter your first number:"))
+Number_2=int(input("Enter your second number:"))
+
+for i in range(1, Number_1+1):
+    if Number_1%i==0:
+        print(i)
+for i in range(1, Number_2+1):
+    if Number_2%i==0:
+        print(i)
