@@ -36,5 +36,9 @@ for i in range(1, factors+1):
     if factors%i==0:
         print(i)
 
-
 ##Challenge Finding GCF
+def GCF(a,b):
+    for i in range(1, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            GCF.append(i)
+    return max(GCF)
