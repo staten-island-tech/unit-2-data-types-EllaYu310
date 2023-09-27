@@ -37,12 +37,16 @@ for i in range(1, factors+1):
         print(i)
 
 ##Challenge Finding GCF
-Number_1=int(input("Enter your first number:"))
-Number_2=int(input("Enter your second number:"))
-
-for i in range(1, Number_1+1):
-    if Number_1%i==0:
-        print(i)
-for i in range(1, Number_2+1):
-    if Number_2%i==0:
-        print(i)
+list=[]
+def GCF(a,b):
+    if number_1>number_2:
+        smaller=number_2
+    else:
+        smaller=number_1
+    for i in range(1, smaller+1):
+        if number_1%i==0 and number_2%i==0:
+            list.append(i)
+number_1=int(input("Enter your first number:"))
+number_2=int(input("Enter your second number:"))
+GCF(number_1,number_2)
+print(max(list))
