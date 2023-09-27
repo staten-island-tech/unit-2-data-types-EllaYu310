@@ -1,12 +1,12 @@
 ##Challenge Finding GCF
-#list=[]
-#def greatest_common_factor(a,b):
-#    for i in range(1, min(a,b)+1):
-#        if a%i==0 and b%i==0:
-#            list.append(i)
-#number_1=int(input("Enter your first number:"))
-#number_2=int(input("Enter your second number:"))
-#print(max(list))
+list=[]
+def greatest_common_factor(a,b):
+    for i in range(1, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            list.append(i)
+number_1=int(input("Enter your first number:"))
+number_2=int(input("Enter your second number:"))
+print(max(list))
 
 list=[]
 def gcf(a,b):
